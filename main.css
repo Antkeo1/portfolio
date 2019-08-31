@@ -52,6 +52,7 @@ body {
     height: 3px;
     margin: 5px;
     background: #2a9134;
+    transition: all 0.5 ease; 
 }
 
 .change .bar1 {
@@ -84,4 +85,35 @@ body {
     font-size: 25px;
     padding: 1px 20px!important;
     background: rgba(42, 145, 52, 0.6)
+}
+
+.search-btn {
+    background: #2a9134;
+    transition: all 1s ease;
+}
+
+.search-btn:hover {
+    color: #2a9134;
+    background: #19191919;
+}
+
+.navbar-toggler {
+    border: 3px solid #2a9134;
+    padding: 3px;
+}
+/* slider */
+.item-1,
+.item-2,
+.item-3 {
+    min-height: 68vh;
+
+}
+
+.item-1 {
+    background: linear-gradient(rgba(42, 145, 52, 0.9), rgba(42, 145, 52, 0.5)), url('https://i.imgur.com/iXOZLerm.jpg') center/cover fixed no-repeat;
+    /* background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat; */
+
 }
