@@ -8,6 +8,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -53,21 +54,10 @@
                  <ul class="navbar-nav mx-auto">
                      <li class="nav-item"><a href="#header" class="nav-link m-2 text-capitalize nav-active">Home</a></li>
                      <li class="nav-item"><a href="#skills" class="nav-link m-2 text-capitalize">Skills</a></li>
-                     <li class="nav-item"><a href="" class="nav-link m-2 text-capitalize ">About</a></li>
-                     <li class="nav-item"><a href="" class="nav-link m-2 text-capitalize">Projects</a></li>
-                     <li class="nav-item"><a href="" class="nav-link m-2 text-capitalize ">Post</a></li>
-                     <li class="nav-item"><a href="" class="nav-link m-2 text-capitalize ">Reviews</a></li>
-                 </ul>
-                 <form>
-                     <div class="input-group">
-                         <input type="text" class="form-control" placeholder="Search here...">
-                         <div class="input-group-append">
-                             <button class="btn search-btn" type="button">
-                                 <i class="fas fa-search"></i>
-                             </button>
-                         </div>
-                     </div>
-                 </form>
+                     <li class="nav-item"><a href="#about" class="nav-link m-2 text-capitalize ">About</a></li>
+                     <li class="nav-item"><a href="#projects" class="nav-link m-2 text-capitalize">Projects</a></li>
+                     <li class="nav-item"><a href="#contact-form" class="nav-link m-2 text-capitalize">Contact</a></li>
+                    </ul>
              </div>
          </nav>
          <!-- slider -->
@@ -251,74 +241,28 @@
      </section>
     <!-- end of skills -->
 
-    <section id="about" class="pb-5">
-        <!--video modal-->
-         <article id="modal-filler" class="d-flex align-items-center justify-content-center">
-             <!--modal -->
-             <a href="#about">
-                 <i class="fas fa-play-circle" data-toggle="modal" data-target="#myModal">
-
-                 </i>
-             </a>
-         </article>  
-        <!--end of video modal -->
-    </section>
+   
 
      <!-- about me section-->
-    <div class="container my-5">
-        <!-- title -->
-        <div class="row title my-5">
-                <div class="col text-center">
-                    <h1 class="text-uppercase"> about me</h1>
-                    <h3 class="text-caapitalize">A growth-minded individual with a love for comicbook superheroes</h3>
-                    <a href="#" class="mb-0" ><i class='fas fa-globe'></i></a>
-                    <div class="title-underline"></div>
+     <section id="about" class="pb-5">
+        <div id='about' class="container my-5">
+            <!-- title -->
+            <div class="row title my-5">
+                    <div class="col header text-center">
+                        <h1 class="text-uppercase"> about me</h1>
+                        <h3 class="text-caapitalize">A growth-minded individual with a love for comicbook superheroes</h3>
+                        <a href="#" class="mb-0" ><i class='fas fa-globe'></i></a>
+                        <div class="title-underline"></div>
+                    </div>
                 </div>
-            </div>
-            <!-- end of title-->
-            <div class="row">
-                    <div class="col-md-6 about-progress mb-5 d-flex flex-column justify-content-center">
-                            <div class="progress-bars">
-                                <!-- bar -->
-                                <div class="bar my-3">
-                                    <h5 class="text-light text-uppercase d-flex justify-content-between">
-                                        html
-                                        <span>70%</span>
-                                    </h5>
-                                    <div class="progress bg-light">
-                                        <div class="progress-bar" role='progressbar' style='width:70%'>
-                                            70%
-                                        </div>
-                                    </div>
-                                </div>
+                <!-- end of title-->
+                <div class="row">
+                        <div class="col-md-6 about-progress mb-5 d-flex flex-column justify-content-center">
+                                <div class="progress-bars">
                                     <!-- bar -->
-                                <div class="bar my-3">
+                                    <div class="bar my-3">
                                         <h5 class="text-light text-uppercase d-flex justify-content-between">
-                                            css
-                                            <span>80%</span>
-                                        </h5>
-                                        <div class="progress bg-light">
-                                            <div class="progress-bar" role='progressbar' style='width:70%'>
-                                                80%
-                                            </div>
-                                        </div>
-                                    </div>
-                                        <!-- bar -->
-                                <div class="bar my-3">
-                                        <h5 class="text-light text-uppercase d-flex justify-content-between">
-                                            javascript
-                                            <span>75%</span>
-                                        </h5>
-                                        <div class="progress bg-light">
-                                            <div class="progress-bar" role='progressbar' style='width:70%'>
-                                                75%
-                                            </div>
-                                        </div>
-                                </div>
-                                        <!-- bar -->
-                                <div class="bar my-3">
-                                        <h5 class="text-light text-uppercase d-flex justify-content-between">
-                                            React.js
+                                            html
                                             <span>70%</span>
                                         </h5>
                                         <div class="progress bg-light">
@@ -327,30 +271,207 @@
                                             </div>
                                         </div>
                                     </div>
+                                        <!-- bar -->
+                                    <div class="bar my-3">
+                                            <h5 class="text-light text-uppercase d-flex justify-content-between">
+                                                css
+                                                <span>80%</span>
+                                            </h5>
+                                            <div class="progress bg-light">
+                                                <div class="progress-bar" role='progressbar' style='width:70%'>
+                                                    80%
+                                                </div>
+                                            </div>
+                                        </div>
+                                            <!-- bar -->
+                                    <div class="bar my-3">
+                                            <h5 class="text-light text-uppercase d-flex justify-content-between">
+                                                javascript
+                                                <span>75%</span>
+                                            </h5>
+                                            <div class="progress bg-light">
+                                                <div class="progress-bar" role='progressbar' style='width:70%'>
+                                                    75%
+                                                </div>
+                                            </div>
+                                    </div>
+                                            <!-- bar -->
+                                    <div class="bar my-3">
+                                            <h5 class="text-light text-uppercase d-flex justify-content-between">
+                                                React.js
+                                                <span>70%</span>
+                                            </h5>
+                                            <div class="progress bg-light">
+                                                <div class="progress-bar" role='progressbar' style='width:70%'>
+                                                    70%
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                                
                             </div>
-                            
-                        </div>
-                <div class="col-md-6 py-5 about-text text-center">
-                        <h2 class="text-uppercase">always learning and pushing boundaries</h2>
-                        <p class="lead text-light">
-                                React.js is an open-source JavaScript library which is used for 
-                                building user interfaces specifically for single page applications. 
-                                React also allows us to create reusable UI components. React was 
-                                first created by Jordan Walke, a software engineer working for 
-                                Facebook.
-                        </p>
-                        <a href="#" class="btn btn-lg d-block w-75 text-uppercase mb-5 mx-auto">
-                            download resume
-                        </a>
-                </div>
-                <div class="col-md-6 py-5 about-text text-center">
+                    <div class="col-md-6 py-5 about-text text-center">
+                            <h2 class="text-uppercase">always learning and pushing boundaries</h2>
+                            <p class="lead text-light">
+                                As a first generation Cambodian American, I always knew helping others was 
+                                something I wanted to do. Learning how my famiy came to this country and the 
+                                sacrifices my parents made, gave me a grateful heart and the eagerness to give 
+                                back to others. From working in retail to teaching students in middle schools, 
+                                the opportunities I had allowed me to find myself and understand what I wanted 
+                                to do with the rest of my life. My desire for growth led me to the Institute 
+                                of Entrenprenuership and Leadership where my love for coding began. After the 
+                                completion of the course, I signed up for Web Development Immersive At General 
+                                Assembly to further my skills. My goal is to use the skills I've learned and 
+                                use it for the beneft of others.
+                            </p>
+                            <a href="https://antkeo1.github.io/react-resume/" class="btn btn-lg d-block w-75 text-uppercase mb-5 mx-auto">
+                                view resume
+                            </a>
+                    </div>
+                    <div class="col-md-6 py-5 about-text text-center">
+                        
+                    </div>
                     
                 </div>
-                
-            </div>
-    </div>
+        </div>
+    </section>
 
      <!-- end of about me section-->
+
+     <!-- project-->
+     <section id="projects" class="py-5">
+            <div class="container">
+              <!--     title-->
+              <div class="row title mb-5">
+                <div class="col text-center">
+                  <h1 class="text-uppercase">projects</h1>
+                  <h3 class="text-capitalize">Lorem ipsum dolor sit amet.</h3>
+                  <a href="#" class="mb-0"><i class="fas fa-camera"></i></a>
+                  <div class="title-underline"></div>
+        
+                </div>
+        
+              </div>
+              <!--      end of title-->
+              <!--      button row-->
+              <div class="row">
+                <div class="col text-center">
+                  <div class="btn-group btn-group-lg mb-5 button-group filter-button-group" role="group">
+                    <button type="button" class="btn text-uppercase" data-filter="*">all</button>
+                    <button type="button" class="btn text-uppercase" data-filter=".coffee">tictactoe</button>
+                    <button type="button" class="btn text-uppercase" data-filter=".tea">emailer</button>
+                    <button type="button" class="btn text-uppercase" data-filter=".water">e-comerce</button>
+                  </div>
+                </div>
+              </div>
+              <!--      images row-->
+              <div class="row grid projects">
+                <div class="col-sm-6 col-md-4 my-3 tictactoe">
+                  <article class="img-container">
+                    <img src="https://i.imgur.com/YYcwrfXm.png" class="img-fluid rounded project-image">
+                    <a href="#" class="search-link"><i class="fas fa-search"></i></a>
+                  </article>
+        
+                </div>
+                <div class="col-sm-6 col-md-4 my-3 emailer">
+                  <article class="img-container">
+                    <img src="https://i.imgur.com/1mh5Gvhm.png" class="img-fluid rounded project-image">
+                    <a href="#" class="search-link"><i class="fas fa-search"></i></a>
+                  </article>
+                </div>
+                <div class="col-sm-6 col-md-4 my-3 e-comerce">
+                  <article class="img-container">
+                    <img src="https://i.imgur.com/FPS8bBnm.png" class="img-fluid rounded project-image">
+                    <a href="#" class="search-link"><i class="fas fa-search"></i></a>
+                  </article>
+                </div>
+                
+        
+              </div>
+        
+        
+        
+            </div>
+        
+        
+          </section>
+        
+        
+
+
+     <!--   end of projects-->
+      <!--contact-form-->
+      <section id="contact-form" class='py-5'>
+        <div class="container py-5">
+          <div class="row height-30 align-items-center">
+            <div class="col-md-8 mx-auto text-center">
+              <h1 class="text-capitalize display-3">Send me an email</h1>
+              <form class="form d-flex align-items-baseline flex-wrap" action="mailto:keoantonio1@gmail.com" method="post" enctype="text/plain">
+                <button type="submit" class="btn btn-lg text-capitalize d-flex align-items-center">click here!</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--end contact-form-->
+      <!--values-->
+      <section id="values" class="py-5">
+        <!--     title-->
+        <div class="row title mb-5">
+          <div class="col text-center">
+            <h1 class="text-uppercase">my values</h1>
+            <h3 class="text-capitalize">To live life doing what you love</h3>
+            <a href="#" class="mb-0"><i class="fas fa-rocket"></i></a>
+            <div class="title-underline"></div>
+    
+          </div>
+    
+        </div>
+        <!--      end of title-->
+    
+    
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-lg-4 value text-center my-3">
+              <span class="value-icon"><i class="fas fa-utensils fa-fw"></i></span>
+              <span class="value-number">1</span>
+              <h1 class="my-2 text-uppercase">eat</h1>
+            </div>
+            <div class="col-sm-6 col-lg-4 value text-center my-3">
+              <span class="value-icon"><i class="fas fa-code fa-fw"></i></span>
+              <span class="value-number">2</span>
+              <h1 class="my-2 text-uppercase">code</h1>
+            </div>
+            <div class="col-sm-6 col-lg-4 mx-auto value text-center my-3">
+              <span class="value-icon"><i class="fas fa-bed fa-fw"></i></span>
+              <span class="value-number">3</span>
+              <h1 class="my-2 text-uppercase">sleep</h1>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--values-->
+      
+      <!--footer-->
+      <footer class="container-fluid py-2 px-3">
+        <div class="row">
+          <div class="col d-flex justify-content-between align-items-baseline">
+            <div class="footer-icons">
+                    <a href="https://www.facebook.com/itskeezy.baybe" class="mx-2"><i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://github.com/Antkeo1" class="mx-2"><i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/antonio-keo-63b17b168" class="mx-2"><i class="fab fa-linkedin"></i>
+                    </a>
+            </div>
+            <h5 class="text-capitalize">
+              &copy;2019 copyright : Coder
+            </h5>
+          </div>
+        </div>
+      </footer>
+    
+
      <!--modal -->
     <div class="modal fade" id='myModal' tabindex="1" role='dialog'>
          <div class="modal-dialog" role="document">
