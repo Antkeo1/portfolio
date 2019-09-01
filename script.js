@@ -37,6 +37,5 @@ let $grid = $(".grid").isotope({
       filter: filterValue
     });
   });
-});
 
 

@@ -45,6 +45,19 @@ body {
     color: #242424;
 }
 
+.pic {
+    width: 15%;
+    border-radius: 45%;
+}
+
+
+.pic:hover {
+    transform: scale(3);
+    transition: all 2s ease;
+    border-radius: 0%;
+}
+
+
 .bar1, 
 .bar2,
 .bar3 {
@@ -107,7 +120,7 @@ body {
 .item-2,
 .item-3 {
     min-height: 68vh;
-    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 95% )
+    /* clip-path: polygon(0 0, 100% 0, 100% 85%, 0 95% )*/
 }
 
 .no-padding {
@@ -157,6 +170,7 @@ body {
 /* title of my skills */
 .title h1 {
     color: #242424;
+    margin-top: 20px;
 }
 
 .title h3 {
